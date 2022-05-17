@@ -56,15 +56,47 @@
 		B42BF049283319EF00969F2D /* fabi-news-ios */ = {
 			isa = PBXGroup;
 			children = (
-				B42BF04A283319EF00969F2D /* AppDelegate.swift */,
-				B42BF04C283319EF00969F2D /* SceneDelegate.swift */,
-				B42BF04E283319EF00969F2D /* ViewController.swift */,
-				B42BF050283319EF00969F2D /* Main.storyboard */,
-				B42BF053283319F100969F2D /* Assets.xcassets */,
-				B42BF055283319F100969F2D /* LaunchScreen.storyboard */,
+				B42BF06628343DB100969F2D /* ViewController */,
+				B42BF06528343D7900969F2D /* Assets */,
+				B42BF06428343D1500969F2D /* App */,
+				B42BF06728343E8C00969F2D /* Storyboard */,
 				B42BF058283319F100969F2D /* Info.plist */,
 			);
 			path = "fabi-news-ios";
+			sourceTree = "<group>";
+		};
+		B42BF06428343D1500969F2D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B42BF04A283319EF00969F2D /* AppDelegate.swift */,
+				B42BF04C283319EF00969F2D /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B42BF06528343D7900969F2D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B42BF053283319F100969F2D /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B42BF06628343DB100969F2D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B42BF04E283319EF00969F2D /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B42BF06728343E8C00969F2D /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B42BF050283319EF00969F2D /* Main.storyboard */,
+				B42BF055283319F100969F2D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
