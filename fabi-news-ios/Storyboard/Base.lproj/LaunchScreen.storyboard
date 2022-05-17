@@ -17,19 +17,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-news" translatesAutoresizingMaskIntoConstraints="NO" id="fKl-bn-MCQ">
-                                <rect key="frame" x="141" y="363" width="146" height="200"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9D0-el-pHZ">
+                                <rect key="frame" x="125" y="362" width="178" height="202"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fabi News" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ePn-Ah-nbj">
+                                        <rect key="frame" x="16" y="160" width="146" height="26"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="22"/>
+                                        <color key="textColor" systemColor="tertiarySystemBackgroundColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic-news" translatesAutoresizingMaskIntoConstraints="NO" id="fKl-bn-MCQ">
+                                        <rect key="frame" x="16" y="16" width="146" height="128"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="146" id="4S8-Wb-lKW"/>
+                                            <constraint firstAttribute="height" constant="128" id="e2r-0r-jZE"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemRedColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="146" id="4S8-Wb-lKW"/>
-                                    <constraint firstAttribute="height" constant="200" id="e2r-0r-jZE"/>
+                                    <constraint firstItem="ePn-Ah-nbj" firstAttribute="leading" secondItem="9D0-el-pHZ" secondAttribute="leading" constant="16" id="8Si-so-q5a"/>
+                                    <constraint firstAttribute="bottom" secondItem="ePn-Ah-nbj" secondAttribute="bottom" constant="16" id="8p9-AU-gnP"/>
+                                    <constraint firstAttribute="trailing" secondItem="ePn-Ah-nbj" secondAttribute="trailing" constant="16" id="BrS-cG-ngU"/>
+                                    <constraint firstItem="ePn-Ah-nbj" firstAttribute="top" secondItem="fKl-bn-MCQ" secondAttribute="bottom" constant="16" id="DAf-AI-dkW"/>
+                                    <constraint firstItem="fKl-bn-MCQ" firstAttribute="top" secondItem="9D0-el-pHZ" secondAttribute="top" constant="16" id="UFg-DA-onR"/>
+                                    <constraint firstItem="fKl-bn-MCQ" firstAttribute="leading" secondItem="9D0-el-pHZ" secondAttribute="leading" constant="16" id="mPb-lK-b0l"/>
+                                    <constraint firstAttribute="trailing" secondItem="fKl-bn-MCQ" secondAttribute="trailing" constant="16" id="swo-hQ-lG5"/>
                                 </constraints>
-                            </imageView>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemRedColor"/>
                         <constraints>
-                            <constraint firstItem="fKl-bn-MCQ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="6wB-Rt-9G1"/>
-                            <constraint firstItem="fKl-bn-MCQ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="MDy-pO-I6h"/>
+                            <constraint firstItem="9D0-el-pHZ" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="ipX-s5-cH2"/>
+                            <constraint firstItem="9D0-el-pHZ" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="lMb-No-BiE"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -42,6 +63,9 @@
         <image name="ic-news" width="512" height="512"/>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
     </resources>
 </document>
