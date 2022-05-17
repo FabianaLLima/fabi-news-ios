@@ -13,6 +13,8 @@
 		B42BF052283319EF00969F2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B42BF050283319EF00969F2D /* Main.storyboard */; };
 		B42BF054283319F100969F2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B42BF053283319F100969F2D /* Assets.xcassets */; };
 		B42BF057283319F100969F2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B42BF055283319F100969F2D /* LaunchScreen.storyboard */; };
+		B42BF06A2834543100969F2D /* header.xib in Resources */ = {isa = PBXBuildFile; fileRef = B42BF0692834543100969F2D /* header.xib */; };
+		B42BF06C2834556900969F2D /* NewsWithLargeImagem.xib in Resources */ = {isa = PBXBuildFile; fileRef = B42BF06B2834556900969F2D /* NewsWithLargeImagem.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B42BF053283319F100969F2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B42BF056283319F100969F2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B42BF058283319F100969F2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B42BF0692834543100969F2D /* header.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = header.xib; sourceTree = "<group>"; };
+		B42BF06B2834556900969F2D /* NewsWithLargeImagem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsWithLargeImagem.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 				B42BF06528343D7900969F2D /* Assets */,
 				B42BF06428343D1500969F2D /* App */,
 				B42BF06728343E8C00969F2D /* Storyboard */,
+				B42BF068283453FA00969F2D /* Cells */,
 				B42BF058283319F100969F2D /* Info.plist */,
 			);
 			path = "fabi-news-ios";
@@ -97,6 +102,15 @@
 				B42BF055283319F100969F2D /* LaunchScreen.storyboard */,
 			);
 			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		B42BF068283453FA00969F2D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B42BF0692834543100969F2D /* header.xib */,
+				B42BF06B2834556900969F2D /* NewsWithLargeImagem.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,9 +171,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B42BF06A2834543100969F2D /* header.xib in Resources */,
 				B42BF057283319F100969F2D /* LaunchScreen.storyboard in Resources */,
 				B42BF054283319F100969F2D /* Assets.xcassets in Resources */,
 				B42BF052283319EF00969F2D /* Main.storyboard in Resources */,
+				B42BF06C2834556900969F2D /* NewsWithLargeImagem.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
