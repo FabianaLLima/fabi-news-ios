@@ -17,6 +17,7 @@
 		B42BF06C2834556900969F2D /* NewsWithLargeImagem.xib in Resources */ = {isa = PBXBuildFile; fileRef = B42BF06B2834556900969F2D /* NewsWithLargeImagem.xib */; };
 		B42BF070283596E800969F2D /* NewsLargeImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42BF06F283596E800969F2D /* NewsLargeImageTableViewCell.swift */; };
 		B42BF07328359AEE00969F2D /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42BF07228359AEE00969F2D /* NewsViewModel.swift */; };
+		B44DCB75283C3B1300AC17DC /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44DCB74283C3B1300AC17DC /* Header.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		B42BF06B2834556900969F2D /* NewsWithLargeImagem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsWithLargeImagem.xib; sourceTree = "<group>"; };
 		B42BF06F283596E800969F2D /* NewsLargeImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsLargeImageTableViewCell.swift; sourceTree = "<group>"; };
 		B42BF07228359AEE00969F2D /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		B44DCB74283C3B1300AC17DC /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				B42BF04E283319EF00969F2D /* HomeViewController.swift */,
 				B42BF06F283596E800969F2D /* NewsLargeImageTableViewCell.swift */,
+				B44DCB74283C3B1300AC17DC /* Header.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 				B42BF04B283319EF00969F2D /* AppDelegate.swift in Sources */,
 				B42BF07328359AEE00969F2D /* NewsViewModel.swift in Sources */,
 				B42BF070283596E800969F2D /* NewsLargeImageTableViewCell.swift in Sources */,
+				B44DCB75283C3B1300AC17DC /* Header.swift in Sources */,
 				B42BF04D283319EF00969F2D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

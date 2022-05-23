@@ -16,6 +16,7 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         super.viewDidLoad()
         tableView.delegate = self
         tableView.dataSource = self
+        tableView.separatorColor = .clear
         let newsLargeImage = UINib(nibName: "NewsWithLargeImagem", bundle: .main)
         tableView.register(newsLargeImage, forCellReuseIdentifier: "newsLargeImage")
     }
@@ -30,6 +31,14 @@ class HomeViewController: UIViewController, UITableViewDelegate, UITableViewData
         }
         cell.config(viewModel: listNews[indexPath.row])
         return cell
+    }
+
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        Bundle.main.loadNibNamed("header", owner: Header.self, options: nil)?[0] as? Header
+    }
+
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        UITableView.automaticDimension
     }
 }
 
